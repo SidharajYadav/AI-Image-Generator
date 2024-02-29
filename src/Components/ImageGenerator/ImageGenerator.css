@@ -1,0 +1,104 @@
+.ai-image-generator{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.header{
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.header span{
+    color: crimson;
+    font-weight: 600;
+
+}
+.image-loading{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-loading img{
+    
+    width: 512px;
+    border-radius: 30px;
+}
+
+.search-box{
+    width: 900px;
+    display: flex;
+    height: 95px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: blueviolet;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+}
+
+.search-input{
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+    border: #FFFFFF;
+   
+}
+
+.search-input::placeholder{
+    color: #999;
+}
+.generator-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 50px;
+    background: #4fcc29;
+    cursor: pointer;
+    border: 2px solid black; /* Add border */
+    margin: 10px auto; /* Add space between buttons */
+    padding: 0 20px; /* Add padding to the sides */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for background color and box-shadow */
+}
+
+.generator-btn.clicked {
+    background-color: #34992c; /* Change background color when clicked */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect when clicked */
+}
+
+.reload-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 85px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 50px;
+    background-color: #c53b9c;
+    color: #FFFFFF;
+    cursor: pointer; /* Add space between buttons */
+    transition: background-color 0.3s ease;
+    padding: 0 10px; /* Add padding to the sides */
+    border: 2px solid black; 
+    margin: 15px auto/* Add border */
+}
+
+.reload-btn:hover {
+    background-color: #d34aba; /* Darker background color on hover */
+}
