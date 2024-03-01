@@ -117,7 +117,7 @@ const ImageGenerator = () => {
             </div>
         </div>
     );
-};
+}; 
 
 export default ImageGenerator;
  
