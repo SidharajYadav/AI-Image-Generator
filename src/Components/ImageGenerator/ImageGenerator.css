@@ -86,6 +86,9 @@
     background-color: #34992c; /* Change background color when clicked */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect when clicked */
 }
+.generator-btn:hover {
+    background-color: #a3d410; /* Darker background color on hover */
+}
 
 .reload-btn {
     display: flex;

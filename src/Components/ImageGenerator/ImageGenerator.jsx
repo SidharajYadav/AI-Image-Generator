@@ -138,7 +138,7 @@ const ImageGenerator = () => {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Bearer ",
+                    "Authorization": "Bearer sk-sMQDYwihA9Ojl4NWcdXfT3BlbkFJv5",
                     "User-Agent": "Chrome",
                 },
                 body: JSON.stringify({
@@ -195,3 +195,4 @@ const ImageGenerator = () => {
 };
 
 export default ImageGenerator;
+//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
