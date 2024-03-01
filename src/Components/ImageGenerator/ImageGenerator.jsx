@@ -12,7 +12,7 @@
 //                 method: "POST",
 //                 headers: {
 //                     "Content-Type": "application/json",
-//                     "Authorization": "Bearer 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",
+//                     "Authorization": "Bearer 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",
 //                     "User-Agent": "Chrome",
 //                 },
 //                 body: JSON.stringify({
@@ -58,6 +58,7 @@ const ImageGenerator = () => {
     const [imageUrl, setImageUrl] = useState(defaultImage);
     const [isClicked, setIsClicked] = useState(false);
     const inputRef = useRef(null);
+    const [loading,setLoading] = useState(false)
 
     const imageGenerator = async () => {
         try {
@@ -65,7 +66,7 @@ const ImageGenerator = () => {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Bearer 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",
+                    "Authorization": "Bearer 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",
                     "User-Agent": "Chrome",
                 },
                 body: JSON.stringify({
@@ -100,6 +101,10 @@ const ImageGenerator = () => {
             <div className='header'>AI image <span>generator</span></div>
             <div className='img-loading'>
                 <div className='image'><img src={imageUrl} alt='' /></div>
+                <div className='loading'>
+                    <div className={loading?"loading-bar-full":"loading-bar"}></div>
+                    <div className={loading?"loading-text":"display-none"}>Loading...</div>
+                </div>
             </div>
             <div className='search-box'>
                 <input type="text" ref={inputRef} className='search-input' placeholder='Describe What You Want To See' />
@@ -115,4 +120,4 @@ const ImageGenerator = () => {
 };
 
 export default ImageGenerator;
- //master
+ 

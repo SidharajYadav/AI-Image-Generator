@@ -102,3 +102,26 @@
 .reload-btn:hover {
     background-color: #d34aba; /* Darker background color on hover */
 }
+
+.loading-bar{
+    width: 0px;
+    height: 8px;
+    background: #DE1B89;
+
+}
+
+.loading-text{
+    font-size: 18px;
+}
+
+.loading-bar-full{
+    width: 512px;
+    height: 8px;
+    background: #DE1B89;
+    transition: 15s;
+
+}
+
+.display-none{
+    display: none;
+}
