@@ -122,7 +122,6 @@
 // export default ImageGenerator;
 
 
-
 import React, { useRef, useState } from 'react';
 import ImageGeneratorCSS from '../ImageGenerator/ImageGenerator.css';
 import defaultImage from '../Assets/default_image.svg';
