@@ -196,4 +196,4 @@ const ImageGenerator = () => {
 };
 
 export default ImageGenerator;
-//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 -API
+//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 -API Key
