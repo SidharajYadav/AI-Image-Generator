@@ -2,7 +2,7 @@
 // // import ImageGeneratorCSS from '../ImageGenerator/ImageGenerator.css';
 // // import default_image from '../Assets/default_image.svg';
 
-// // const ImageGenerator = () => {
+// // const ImageGenerator = () => { 
 // //     const [imageUrl, setImageUrl] = useState("/"); // Use camelCase for variable names
 // //     const inputRef = useRef(null);
 
