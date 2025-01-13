@@ -121,7 +121,7 @@
 
 // export default ImageGenerator;
 
-//New Version
+//New Version 
 
 import React, { useRef, useState } from 'react';
 import ImageGeneratorCSS from '../ImageGenerator/ImageGenerator.css';
