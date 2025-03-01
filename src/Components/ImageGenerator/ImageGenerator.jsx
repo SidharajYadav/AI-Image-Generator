@@ -120,7 +120,7 @@
 // }; 
 
 // export default ImageGenerator;
-
+ 
 //New Version 
 
 import React, { useRef, useState } from 'react';
