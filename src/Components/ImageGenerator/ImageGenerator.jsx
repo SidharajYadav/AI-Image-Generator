@@ -13,7 +13,7 @@
 // //                 headers: {
 // //                     "Content-Type": "application/json",
 // //                     "Authorization": "Bearer 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",
-// //                     "User-Agent": "Chrome",
+// //                     "User-Agent": "Chrome", 
 // //                 },
 // //                 body: JSON.stringify({
 // //                     prompt: inputRef.current.value,
