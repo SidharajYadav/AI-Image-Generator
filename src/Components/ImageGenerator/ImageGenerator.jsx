@@ -59,7 +59,7 @@
 //     const [isClicked, setIsClicked] = useState(false);
 //     const inputRef = useRef(null);
 //     const [loading,setLoading] = useState(false)
-
+ 
 //     const imageGenerator = async () => {
 //         try {
 //             const response = await fetch("https://api.openai.com/v1/images/generations", {
